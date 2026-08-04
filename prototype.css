@@ -42,7 +42,7 @@
 }
 @font-face {
   font-family: 'Unibet Cotes';
-  src: url('fonts/Unibet-Cotes-v2-ALPHA-20260305.otf') format('opentype');
+  src: url('fonts/UnibetCotes-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
