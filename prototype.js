@@ -26,7 +26,7 @@
   function flag(player) {
     return player.flag === 'ca'
       ? '<span class="flag flag-ca" aria-label="Canada"><img src="figma-assets/canada.svg" alt=""></span>'
-      : '<span class="flag flag-fr" aria-label="France"><img class="flag-image" src="https://www.figma.com/api/mcp/asset/d63b43ac-c39d-4652-b1fc-7682de5315e0" alt=""></span>';
+      : '<span class="flag flag-fr" aria-label="France"><img class="flag-image" src="figma-assets/France_small.svg" alt=""></span>';
   }
 
   function odds(value, key) {
