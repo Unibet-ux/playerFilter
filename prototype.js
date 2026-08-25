@@ -160,6 +160,17 @@
     renderDoublePlayers();
     renderPeriodPlayers();
     applyMarketSearch(marketSearchQuery);
+    updateMarketBottomPadding();
+  }
+
+  function updateMarketBottomPadding() {
+    root.querySelectorAll('.market').forEach(function (market) {
+      var controls = Array.prototype.slice.call(market.querySelectorAll('.show-more'));
+      var hasVisibleMore = controls.some(function (control) {
+        return !control.hidden && !control.classList.contains('search-hidden-control');
+      });
+      market.classList.toggle('market--no-more', controls.length === 0 || !hasVisibleMore);
+    });
   }
 
   function applyMarketSearch(query) {
