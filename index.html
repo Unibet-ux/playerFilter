@@ -41,13 +41,13 @@
       <span><img src="figma-assets/tab-classement.svg" alt=""><span>Classement</span></span>
     </nav>
     <nav class="filters" aria-label="Filtres de marchés">
-      <div class="search-trigger" data-player-search aria-label="Filtrer un joueur" aria-expanded="false">
-        <button type="button" class="search-trigger-open" data-player-search-open aria-label="Filtrer un joueur"><img src="figma-assets/search.svg" alt=""></button>
-        <input type="search" class="search-input" data-player-inline-input placeholder="Rechercher un joueur" aria-label="Rechercher un joueur" autocomplete="off" hidden>
+      <div class="search-trigger tracking-player-search" data-player-search aria-label="Filtrer un joueur" aria-expanded="false">
+        <button type="button" class="search-trigger-open tracking-player-search-open" data-player-search-open aria-label="Filtrer un joueur"><img src="figma-assets/search.svg" alt=""></button>
+        <input type="search" class="search-input tracking-player-search-input" data-player-inline-input placeholder="Rechercher un joueur" aria-label="Rechercher un joueur" autocomplete="off" hidden>
         <button type="button" class="search-clear" data-player-search-clear aria-label="Réinitialiser la recherche" hidden>×</button>
       </div>
       <button type="button" class="filter-chip">1N2</button>
-      <button type="button" class="filter-chip market-filter-buteurs" data-scroll-buteurs>Buteurs</button>
+      <button type="button" class="filter-chip market-filter-buteurs tracking-market-filter-buteurs" data-scroll-buteurs>Buteurs</button>
       <button type="button" class="filter-chip">Double Chance</button>
       <button type="button" class="filter-chip">Score Exact</button>
       <button type="button" class="filter-chip">Plus / Moins</button>
@@ -58,7 +58,7 @@
       <button type="button" class="player-chip" data-player-chip="Jean Philippe Mateta" aria-pressed="false"><span class="flag flag-fr" aria-hidden="true"><img class="flag-image" src="figma-assets/market-flag-fr.png" alt=""></span>J-P Mateta</button>
       <button type="button" class="player-chip" data-player-chip="Ousmane Dembele" aria-pressed="false"><span class="flag flag-fr" aria-hidden="true"><img class="flag-image" src="figma-assets/market-flag-fr.png" alt=""></span>O. Dembele</button>
       <button type="button" class="player-chip" data-player-chip="Jonathan David" aria-pressed="false"><span class="flag flag-ca" aria-hidden="true"><img src="figma-assets/market-flag-ca.png" alt=""></span>J. David</button>
-      <button type="button" class="player-chip" data-player-chip="Desire Doue" aria-pressed="false"><span class="flag flag-fr" aria-hidden="true"><img class="flag-image" src="figma-assets/market-flag-fr.png" alt=""></span>D. Doue</button>
+      <button type="button" class="player-chip tracking-player-filter-desire-doue" data-player-chip="Desire Doue" aria-pressed="false"><span class="flag flag-fr" aria-hidden="true"><img class="flag-image" src="figma-assets/market-flag-fr.png" alt=""></span>D. Doue</button>
       <button type="button" class="player-chip" data-player-chip="Michael Olise" aria-pressed="false"><span class="flag flag-fr" aria-hidden="true"><img class="flag-image" src="figma-assets/market-flag-fr.png" alt=""></span>M. Olise</button>
       <button type="button" class="player-chip" data-player-chip="Promise David" aria-pressed="false"><span class="flag flag-ca" aria-hidden="true"><img src="figma-assets/market-flag-ca.png" alt=""></span>P. David</button>
       <button type="button" class="player-chip" data-player-chip="Tani Oluwaseyi" aria-pressed="false"><span class="flag flag-ca" aria-hidden="true"><img src="figma-assets/market-flag-ca.png" alt=""></span>T. Oluwaseyi</button>
@@ -102,7 +102,7 @@
         <div class="market-inner">
           <div class="players-head primary-head"><span class="players-head-player"></span><div class="players-head-bets"><span>Buteur</span><span>1er buteur</span><span>Dernier buteur</span></div></div>
           <div data-primary-players></div>
-          <button type="button" class="show-more" data-more="primary">Afficher plus</button>
+          <button type="button" class="show-more tracking-buteur-show-more" data-more="primary">Afficher plus</button>
         </div>
       </section>
       <section class="market" data-market-group="generic">
