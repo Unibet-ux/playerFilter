@@ -61,7 +61,8 @@
   function odds(value, key) {
     var chosen = key && selectedOddKeys[key];
     var isGoalTrigger = variant === 'player-filter' && key === 'primary-Desire Doue-0';
-    return '<button type="button" class="player-odds' + (chosen ? ' is-selected' : '') + '" data-odd-key="' + (key || '') + '"' + (isGoalTrigger ? ' data-goal-trigger' : ' aria-disabled="true"') + ' aria-label="Cote ' + value + '"><span class="odds-value">' + value + '</span></button>';
+    var trackingClass = key === 'primary-Desire Doue-0' ? ' tracking-odd-desire-doue-2-90' : '';
+    return '<button type="button" class="player-odds' + (chosen ? ' is-selected' : '') + trackingClass + '" data-odd-key="' + (key || '') + '"' + (isGoalTrigger ? ' data-goal-trigger' : ' aria-disabled="true"') + ' aria-label="Cote ' + value + '"><span class="odds-value">' + value + '</span></button>';
   }
 
   function visiblePlayers() {
