@@ -1,4 +1,3 @@
-﻿Sélecteur CSS;URL Cible;URL défi;Start_date;Start_time;End_date;End_time;URL_banner
-.psel-sport-events;/paris-football/;;2026-09-14;11:21;2026-09-14;23:59;
-.psel-sport-events;/paris-basketball/;;2026-09-14;18:00;2026-09-14;23:00;
-.psel-sport-events;ligue-1-mcdonalds;https://www.unibet.fr/promotions/defi/2291;2026-09-15;17:00;2026-09-16;19:30;https://cdn.zeturf.com/market/operations/2291/wide/fr/1
+﻿Sélecteur CSS;URL Cible;ID_défi
+.psel-sport-events;/paris-football/;2304
+.psel-sport-events;/paris-basketball/;2303
